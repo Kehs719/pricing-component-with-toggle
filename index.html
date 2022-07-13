@@ -7,23 +7,19 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Pricing component with toggle</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
 <main>
   <div class="container">
     <div class="toggle-switch">
-      <h2>Our Pricing</h2>
+      <h1>Our Pricing</h1>
       <div class="check">
         <p class="annually">Annually</p>
-        <label class="switch">
-          <input type="checkbox"id="check" onchange="togglerFunc()"checked>
+        <label for="check"class="switch">
+          <input type="checkbox"id="check" name="check"onchange="togglerFunc()"checked>
           <span class="slider"></span>
         </label>
         <p class="monthly">Monthly</p>
@@ -51,7 +47,7 @@
   
       <div class="box-basic">
         <p class="title">Master</p>
-        <h2 class="price price-basic"id="price-master">&dollar;<span>34.99</span></h2>
+        <h2 class="price price-basic"id="price-master">&dollar;<span>39.99</span></h2>
         <p class="infos"> 2 TB Storage</p>
         <p class="infos"> 10 Users Allowed</p>
         <p class="infos last">Send up to 20 GB</p>
