@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
 }
-.toggle-switch h2 {
+.toggle-switch h1 {
     color: var(--grayish-blue);
     font-size: 2rem;
     margin-top: 8.23529vh;
