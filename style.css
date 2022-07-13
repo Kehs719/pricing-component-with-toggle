@@ -140,10 +140,7 @@ input:checked + .slider:before {
     margin-bottom: 23px;
 }
 .price-pro{
-    color:white !important;
-}
-.price-pro .title{
-    color:white !important;
+    color:white;
 }
 .price span{
     margin-left: 7px;
