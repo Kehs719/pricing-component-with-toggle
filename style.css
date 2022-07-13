@@ -131,6 +131,10 @@ input:checked + .slider:before {
     margin-bottom: 19px;
     color:var(--grayish-blue);
 }
+.title-pro{
+  font-size: 1.125rem;
+   margin-bottom: 19px;
+}
 .price{
     display: flex;
     align-items: center;
